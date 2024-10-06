@@ -530,7 +530,7 @@ class _CustomGoogleMapsState extends State<CustomGoogleMaps> {
 
   void initialMapStyle() async {
     var nightStyle = await DefaultAssetBundle.of(context)
-        .loadString('assets/google_map_styles/night_style.json');
+        .loadString('assets/map_styles/night_map_style.json');
 
     if (isMapReady && googleMapController != null) {
       googleMapController!.setMapStyle(nightStyle);
