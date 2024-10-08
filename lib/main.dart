@@ -12,7 +12,7 @@ class LiveLocationTrackerApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: CustomGoogleMaps(),
+      home: CustomGoogleMap(),
     );
   }
 }
